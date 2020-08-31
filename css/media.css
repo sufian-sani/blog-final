@@ -1,0 +1,102 @@
+@media (max-width: 1199px) {
+	nav .left-bar{}
+	nav .left-bar .nav-item .nav-link:hover{
+		color: #fff;
+	}
+	nav .right-bar{
+		margin-left: 130px;
+	}
+	nav .right-bar .nav-item .nav-link{
+		color: #fff;
+	}
+	nav .right-bar .nav-item:first-child .nav-link{
+		color: #000;
+	}
+	nav .right-bar .nav-item .nav-link:hover{
+		color: #1a54e7;
+	}
+	nav .search{
+		/* max-height: 100%; */
+	}
+	nav .search button{
+		left: 0;
+		bottom: 0;
+		transform: translate(0%,5%);
+		position: relative;
+		/* height: 50px; */
+	}
+	nav .search i{
+		padding: 10px;
+	}
+	nav .dropdown-menu.show{
+		position: absolute;
+		margin: -45px 0px 0px 65px;
+	}
+	nav .dropdown-menu{
+		padding: 0 !important;
+	}
+
+	/* banner bottom */
+	.banner-bottom .banner-b span{
+	    top: 49%;
+	}
+	/* show gallery */
+	.gallery .show-gallery .tech,.gallery .show-gallery .nature,.gallery .show-gallery .people,.gallery .show-gallery .trips,.gallery .show-gallery .fashion{
+		top: 50%;
+	}
+}
+@media (max-width: 991px) {
+	/* banner bottom */
+	.banner-bottom .banner-b span{
+	    top: 35%;
+	}
+	/* show gallery */
+	.gallery .show-gallery .tech,.gallery .show-gallery .nature,.gallery .show-gallery .people,.gallery .show-gallery .trips,.gallery .show-gallery .fashion{
+		top: 54%;
+	}
+	/* form section */
+	.form .form-content .form-group button{
+		margin-left: -60px;
+	}
+}
+@media (max-width: 767px) {
+	/* banner bottom */
+	.banner-bottom .banner-b span{
+	    top: 53%;
+	}
+	/* show gallery */
+	.gallery .show-gallery .tech,.gallery .show-gallery .nature,.gallery .show-gallery .people,.gallery .show-gallery .trips,.gallery .show-gallery .fashion{
+		top: 245px;
+		left: 80px;
+	}
+	/* form section */
+	.form form{
+		flex-wrap: none;
+	}
+	.form .form-content {
+	    bottom: 50%;
+	    left: 0%;
+	    transform: translate(0%, 25%);
+	}
+	.form form{
+	    flex: none !important;
+    	flex-flow: column;
+	}
+	.form .form-content .form-group button{
+	    margin-left: 0px;
+	}
+	.form .form-content .form-group input{
+		padding: 15px 30px;
+	}
+}
+@media (max-width: 575px) {
+	/* banner bottom */
+	.banner-bottom .banner-b span{
+	    top: 50%;
+	}
+	/* show gallery */
+	.gallery .show-gallery .tech,.gallery .show-gallery .nature,.gallery .show-gallery .people,.gallery .show-gallery .trips,.gallery .show-gallery .fashion{
+		top: 245px;
+	    left: 10.5%;
+	}
+}
