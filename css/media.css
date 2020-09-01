@@ -35,6 +35,12 @@
 	nav .dropdown-menu{
 		padding: 0 !important;
 	}
+	/* banner */
+	.header-section .carousel-caption .title {
+	    right: 0;
+	    bottom: 0;
+	    transform: translate(0%, -15%);
+	}
 
 	/* banner bottom */
 	.banner-bottom .banner-b span{
@@ -46,6 +52,10 @@
 	}
 }
 @media (max-width: 991px) {
+	/* banner */
+	.header-section .carousel-caption .title h2 {
+	    font-size: 23px;
+	}
 	/* banner bottom */
 	.banner-bottom .banner-b span{
 	    top: 35%;
@@ -58,8 +68,44 @@
 	.form .form-content .form-group button{
 		margin-left: -60px;
 	}
+	/* gallery section */
+	.gallery .gallery-header .i-content h2 {
+	    font-size: 30px;
+	}
+	.gallery .gallery-header .i-content p {
+	    font-size: 15px;
+	}
+	.gallery .gallery-header .i-content {
+	    transform: translate(-50%, 50%);
+	}
+	nav .dropdown-menu.show{
+		border: 0 !important;
+	}
+	nav .dropdown-menu.show .form-inline.my-2{
+		margin-bottom: 0 !important;
+		margin-top: 0 !important;
+	}
 }
 @media (max-width: 767px) {
+	/* banner */
+	.header-section .carousel-caption .title {
+	    transform: translate(0%, -10%);
+	}
+	.header-section .carousel-caption .title h2 {
+	    font-size: 18px;
+	}
+	.carousel-caption .col-8{
+	    flex: 0 0 90.666667%;
+    	max-width: 90.666667%;
+	}
+	.carousel-caption img{
+	    width: 33%;
+	}
+	.carousel-caption {
+	    bottom: 8px;
+	    padding-top: 20px;
+	    padding-bottom: 0;
+	}
 	/* banner bottom */
 	.banner-bottom .banner-b span{
 	    top: 53%;
@@ -88,8 +134,22 @@
 	.form .form-content .form-group input{
 		padding: 15px 30px;
 	}
+		/* gallery section */
+	.gallery .gallery-header .i-content h2 {
+	    font-size: 22px;
+	}
+	.gallery .gallery-header .i-content p {
+	    font-size: 12px;
+	}
 }
 @media (max-width: 575px) {
+	/* banner */
+	.header-section .carousel-caption .title h2 {
+	    font-size: 14px;
+	}
+	.carousel-caption img {
+	    width: 28%;
+	}
 	/* banner bottom */
 	.banner-bottom .banner-b span{
 	    top: 50%;
@@ -98,5 +158,9 @@
 	.gallery .show-gallery .tech,.gallery .show-gallery .nature,.gallery .show-gallery .people,.gallery .show-gallery .trips,.gallery .show-gallery .fashion{
 		top: 245px;
 	    left: 10.5%;
+	}
+	.gallery .gallery-header ul {
+	    bottom: 15px;
+        width: 90%;
 	}
 }
